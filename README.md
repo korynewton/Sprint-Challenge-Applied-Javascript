@@ -40,7 +40,7 @@ An event is a user triggered action such as a mouse click,  moving the cursor ov
 
 3. What is an event listener?
 
-An event listener is a specific line of javascript code which is set too look out for any one of the many events that could happen on a page.
+An event listener is a specific line of javascript code interfacing with the DOM that is set too look out for any one of the many events that could happen on a page.
 
 4. Why would we convert a NodeList into an Array?
 
@@ -48,7 +48,7 @@ So that we can work with the individual items in the array. Also, converting to 
 
 5. What is a component?
 
-A component is a combination of HTML, CSS and JavaScript that are purposefully linked together to produce similiar outputs that can be reused many times.
+A component is a combination of HTML, CSS and JavaScript that are built for the purpose of being readable and reusable to scale large web applications.
 
 ### Git Set up
 
