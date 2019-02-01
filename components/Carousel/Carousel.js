@@ -18,7 +18,7 @@ class Carousel {
     previous() {
         this.images.forEach(item => item.style.display = 'none')
         if (this.current === 0) {
-            this.current = 3
+            this.current = 4
         }
         --this.current;
         this.images[this.current].style.display = 'flex'
@@ -27,7 +27,7 @@ class Carousel {
     next() {
         this.images.forEach(item => item.style.display = 'none')
         if (this.current === 3) {
-            this.current = 0
+            this.current = -1
         }
         ++this.current;
         this.images[this.current].style.display = 'flex'
